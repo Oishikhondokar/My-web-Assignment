@@ -1,5 +1,11 @@
 /* nav styles */
 
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
 
 nav{
     display: flex;
@@ -161,9 +167,14 @@ nav li{
     background-color: lavender;
     display: flex;
     gap: 100px;
+    
 }
 .form-coloum{
     width: 50%;
+}
+.form-title{
+    font-weight: bold;
+    font-size: 96px;
 }
 input[type="text"] , input[type="email"],textarea{
     height: 70px;
